@@ -1,0 +1,12 @@
+[
+ {
+   "repository": "Cesium-Devices/kernel_xiaomi_onclite",
+   "target_path": "kernel/xiaomi/onclite",
+   "branch": "ten"
+ }
+ {
+   "repository": "Dhina17/android_vendor_xiaomi_onclite",
+   "target_path": "vendor/xiaomi/onclite",
+   "branch": "lineage-17.1"
+ }
+]

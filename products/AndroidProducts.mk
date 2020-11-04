@@ -15,6 +15,7 @@
 
 # Product Makefiles
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/onclite/pa_onclite.mk \
     $(LOCAL_DIR)/angler/pa_angler.mk \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
     $(LOCAL_DIR)/cepheus/pa_cepheus.mk \
@@ -56,6 +57,7 @@ COMMON_LUNCH_CHOICES += \
     pa_jasmine_sprout-userdebug \
     pa_laurel_sprout-userdebug \
     pa_mata-userdebug \
+    pa_onclite-userdebug \
     pa_oneplus6-userdebug \
     pa_oneplus7-userdebug \
     pa_oneplus7pro-userdebug \
