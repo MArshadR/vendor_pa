@@ -1,12 +1,42 @@
 [
- {
-   "repository": "Cesium-Devices/kernel_xiaomi_onclite",
-   "target_path": "kernel/xiaomi/onclite",
-   "branch": "ten"
- }
- {
-   "repository": "Dhina17/android_vendor_xiaomi_onclite",
-   "target_path": "vendor/xiaomi/onclite",
-   "branch": "lineage-17.1"
- }
-]
+    {
+        "repository": "LineageOS/android_kernel_xiaomi_onclite",
+        "target_path": "kernel/xiaomi/onclite",
+        "revision": "lineage-17.1"
+    }
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "repository": "Dhina17/android_vendor_xiaomi_onclite",
+        "target_path": "vendor/xiaomi/onclite",
+        "revision": "lineage-17.1"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    }
+   ]
